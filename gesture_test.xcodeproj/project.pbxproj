@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1493E47E14C171640095EDDC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1493E47D14C171640095EDDC /* main.cpp */; };
+		1493E48014C171640095EDDC /* gesture_test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1493E47F14C171640095EDDC /* gesture_test.1 */; };
+		1493E48C14C172000095EDDC /* config.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1493E48614C171880095EDDC /* config.xml */; };
+		1493E49014C172300095EDDC /* libopencv_core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1493E48D14C172300095EDDC /* libopencv_core.dylib */; };
+		1493E49114C172300095EDDC /* libopencv_highgui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1493E48E14C172300095EDDC /* libopencv_highgui.dylib */; };
+		1493E49214C172300095EDDC /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1493E48F14C172300095EDDC /* libopencv_imgproc.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1493E47714C171640095EDDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1493E48014C171640095EDDC /* gesture_test.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1493E48B14C171F90095EDDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				1493E48C14C172000095EDDC /* config.xml in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1493E47914C171640095EDDC /* gesture_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gesture_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		1493E47D14C171640095EDDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1493E47F14C171640095EDDC /* gesture_test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = gesture_test.1; sourceTree = "<group>"; };
+		1493E48614C171880095EDDC /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		1493E48D14C172300095EDDC /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = usr/local/lib/libopencv_core.dylib; sourceTree = SDKROOT; };
+		1493E48E14C172300095EDDC /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = usr/local/lib/libopencv_highgui.dylib; sourceTree = SDKROOT; };
+		1493E48F14C172300095EDDC /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = usr/local/lib/libopencv_imgproc.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1493E47614C171640095EDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1493E49014C172300095EDDC /* libopencv_core.dylib in Frameworks */,
+				1493E49114C172300095EDDC /* libopencv_highgui.dylib in Frameworks */,
+				1493E49214C172300095EDDC /* libopencv_imgproc.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1493E46E14C171640095EDDC = {
+			isa = PBXGroup;
+			children = (
+				1493E48D14C172300095EDDC /* libopencv_core.dylib */,
+				1493E48E14C172300095EDDC /* libopencv_highgui.dylib */,
+				1493E48F14C172300095EDDC /* libopencv_imgproc.dylib */,
+				1493E47C14C171640095EDDC /* gesture_test */,
+				1493E47A14C171640095EDDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1493E47A14C171640095EDDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1493E47914C171640095EDDC /* gesture_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1493E47C14C171640095EDDC /* gesture_test */ = {
+			isa = PBXGroup;
+			children = (
+				1493E48614C171880095EDDC /* config.xml */,
+				1493E47D14C171640095EDDC /* main.cpp */,
+				1493E47F14C171640095EDDC /* gesture_test.1 */,
+			);
+			path = gesture_test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1493E47814C171640095EDDC /* gesture_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1493E48314C171640095EDDC /* Build configuration list for PBXNativeTarget "gesture_test" */;
+			buildPhases = (
+				1493E47514C171640095EDDC /* Sources */,
+				1493E47614C171640095EDDC /* Frameworks */,
+				1493E47714C171640095EDDC /* CopyFiles */,
+				1493E48B14C171F90095EDDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gesture_test;
+			productName = gesture_test;
+			productReference = 1493E47914C171640095EDDC /* gesture_test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1493E47014C171640095EDDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1493E47314C171640095EDDC /* Build configuration list for PBXProject "gesture_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1493E46E14C171640095EDDC;
+			productRefGroup = 1493E47A14C171640095EDDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1493E47814C171640095EDDC /* gesture_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1493E47514C171640095EDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1493E47E14C171640095EDDC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1493E48114C171640095EDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1493E48214C171640095EDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1493E48414C171640095EDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/ni/,
+					/usr/include/nite/,
+				);
+				OTHER_LDFLAGS = (
+					/usr/lib/libOpenNI.dylib,
+					/usr/lib/libXnVNite_1_4_1.dylib,
+					/usr/lib/libXnVHandGenerator_1_4_1.dylib,
+					/usr/lib/libXnVFeatures_1_4_1.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1493E48514C171640095EDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/ni/,
+					/usr/include/nite/,
+				);
+				OTHER_LDFLAGS = (
+					/usr/lib/libOpenNI.dylib,
+					/usr/lib/libXnVNite_1_4_1.dylib,
+					/usr/lib/libXnVHandGenerator_1_4_1.dylib,
+					/usr/lib/libXnVFeatures_1_4_1.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1493E47314C171640095EDDC /* Build configuration list for PBXProject "gesture_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1493E48114C171640095EDDC /* Debug */,
+				1493E48214C171640095EDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1493E48314C171640095EDDC /* Build configuration list for PBXNativeTarget "gesture_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1493E48414C171640095EDDC /* Debug */,
+				1493E48514C171640095EDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1493E47014C171640095EDDC /* Project object */;
+}

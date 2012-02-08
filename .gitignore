@@ -1,0 +1,7 @@
+build/
+*.o
+*.oni
+gesture_test.xcodeproj/xcuserdata/
+gesture_test.xcodeproj/project.xcworkspace/xcuserdata/
+.DS_Store
+
