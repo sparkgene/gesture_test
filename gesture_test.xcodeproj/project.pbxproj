@@ -206,9 +206,9 @@
 				);
 				OTHER_LDFLAGS = (
 					/usr/lib/libOpenNI.dylib,
-					/usr/lib/libXnVNite_1_4_1.dylib,
-					/usr/lib/libXnVHandGenerator_1_4_1.dylib,
-					/usr/lib/libXnVFeatures_1_4_1.dylib,
+					/usr/lib/libXnVNite_1_5_2.dylib,
+					/usr/lib/libXnVHandGenerator_1_5_2.dylib,
+					/usr/lib/libXnVFeatures_1_5_2.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -224,9 +224,9 @@
 				);
 				OTHER_LDFLAGS = (
 					/usr/lib/libOpenNI.dylib,
-					/usr/lib/libXnVNite_1_4_1.dylib,
-					/usr/lib/libXnVHandGenerator_1_4_1.dylib,
-					/usr/lib/libXnVFeatures_1_4_1.dylib,
+					/usr/lib/libXnVNite_1_5_2.dylib,
+					/usr/lib/libXnVHandGenerator_1_5_2.dylib,
+					/usr/lib/libXnVFeatures_1_5_2.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

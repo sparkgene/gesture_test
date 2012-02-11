@@ -342,12 +342,12 @@ int main(int argc, char **argv)
     g_SkeletonCap.SetSkeletonProfile(XN_SKEL_PROFILE_ALL);
     
     // NITEのセッション初期化
-    XnVSessionManager sessionManager;
-    nRetVal = sessionManager.Initialize(&g_Context, "Wave,Click", "RaiseHand");
+    XnVSessionManager* sessionManager = new XnVSessionManager();
+    nRetVal = sessionManager->Initialize(&g_Context, "Wave,Click", "RaiseHand");
     CHECK_RC(nRetVal, "SessionManager Initialize");
 
     // セッションの開始終了時のコールバックの登録
-    XnVHandle sessionCallback = sessionManager.RegisterSession(NULL, &SessionStart, &SessionEnd);
+    XnVHandle sessionCallback = sessionManager->RegisterSession(0, &SessionStart, &SessionEnd);
     
     nRetVal = g_Context.StartGeneratingAll();
     CHECK_RC(nRetVal, "StartGenerating");
@@ -423,7 +423,9 @@ int main(int argc, char **argv)
         }
     }
 
-    sessionManager.UnregisterSession(sessionCallback);
+    //sessionManager.UnregisterSession(sessionCallback);
+    delete sessionManager;
+    sessionManager = NULL;
     
     if( !USE_RECORED_DATA ){
         g_scriptNode.Release();
